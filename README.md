@@ -12,14 +12,14 @@ as a bridge between R and ST.
 
 Supported Applications
 ---------------
-* Rgui i386 and x64 for Windows and Mac
+* R Gui i386 and x64 for Windows and Mac
 * Terminal and iTerm 2 for Mac
-* Rterm i386 and x64 for Windows
+* R Term i386 and x64 for Windows
 * Tumx and screen for Linux
 
 Some useful key bindings
 ---------------
-#### Sending Code (default: R)
+#### Sending Code
 **Keybinding:** `C-Enter`
 
 * Send the selection to R (See settings for choosing default application)
@@ -30,7 +30,7 @@ Some useful key bindings
 
 * Change working directory to where the current working script stays
 
-####  Sourcing file (Primary)
+####  Sourcing file
 **Keybinding:** `C-b`
 
 * Tell R to source the working script
@@ -43,5 +43,5 @@ Settings
 
 #### Application path
 
-* In default, Enahnced R will search application's location automatically. To manaully edit application's path, go to
+* In default, Enahnced-R will search for applications automatically. To manaully edit applications' paths, go to
 Preferences -> Package Settings -> Enhanced R -> Settings
